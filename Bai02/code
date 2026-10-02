@@ -10,17 +10,17 @@ namespace baitap02_10
 
 {
 
-    // =========================================================
+    
 
     // A. ABSTRACT CLASS PHUONG TIEN
 
-    // =========================================================
+   
 
     public abstract class PhuongTien
 
     {
 
-        // Private Fields
+     
 
         private string _maPT;
 
@@ -30,11 +30,7 @@ namespace baitap02_10
 
         private decimal _giaGoc;
 
-        // -----------------------------------------------------
-
-        // Property MaPT
-
-        // -----------------------------------------------------
+       
 
         public string MaPT
 
@@ -72,11 +68,7 @@ namespace baitap02_10
 
         }
 
-        // -----------------------------------------------------
-
-        // Property TenHang
-
-        // -----------------------------------------------------
+   
 
         public string TenHang
 
@@ -110,11 +102,7 @@ namespace baitap02_10
 
         }
 
-        // -----------------------------------------------------
-
-        // Property NamSanXuat
-
-        // -----------------------------------------------------
+   
 
         public int NamSanXuat
 
@@ -152,12 +140,7 @@ namespace baitap02_10
 
         }
 
-        // -----------------------------------------------------
-
-        // Property GiaGoc
-
-        // -----------------------------------------------------
-
+     
         public decimal GiaGoc
 
         {
@@ -190,10 +173,6 @@ namespace baitap02_10
 
         }
 
-        // -----------------------------------------------------
-
-        // Constructor
-        // -----------------------------------------------------
 
         public PhuongTien(
 
@@ -217,20 +196,10 @@ namespace baitap02_10
 
         }
 
-        // -----------------------------------------------------
-
-        // Abstract Method
-
-        // -----------------------------------------------------
-
+ 
         public abstract decimal TinhGiaLanBanh();
 
-        // -----------------------------------------------------
-
-        // Virtual Method
-
-        // -----------------------------------------------------
-
+  
         public virtual string GetInfo()
 
         {
@@ -251,22 +220,17 @@ namespace baitap02_10
 
     }
 
-    // ====================
+    
     public class OTo : PhuongTien
 
     {
 
-        // Private Fields
+       
 
         private int _soChoNgoi;
 
         private double _dungTichDongCo;
 
-        // -----------------------------------------------------
-
-        // Property SoChoNgoi
-
-        // -----------------------------------------------------
 
         public int SoChoNgoi
 
@@ -300,12 +264,7 @@ namespace baitap02_10
 
         }
 
-        // -----------------------------------------------------
-
-        // Property DungTichDongCo
-
-        // -----------------------------------------------------
-
+ 
         public double DungTichDongCo
 
         {
@@ -338,11 +297,6 @@ namespace baitap02_10
 
         }
 
-        // -----------------------------------------------------
-
-        // Constructor
-
-        // -----------------------------------------------------
 
         public OTo(
 
@@ -376,12 +330,6 @@ namespace baitap02_10
 
         }
 
-        // -----------------------------------------------------
-
-        // Override TinhGiaLanBanh
-
-        // -----------------------------------------------------
-
         public override decimal TinhGiaLanBanh()
 
         {
@@ -390,12 +338,7 @@ namespace baitap02_10
 
             {
 
-                // Giá gốc
-
-                // + 12% lệ phí trước bạ
-
-                // + 30% thuế tiêu thụ đặc biệt
-
+         
                 return GiaGoc
 
                     + GiaGoc * 0.12m
@@ -408,7 +351,7 @@ namespace baitap02_10
 
             {
 
-                // Giá gốc + 10% lệ phí trước bạ
+              
 
                 return GiaGoc
 
@@ -418,11 +361,7 @@ namespace baitap02_10
 
         }
 
-        // -----------------------------------------------------
-
-        // Override GetInfo
-
-        // -----------------------------------------------------
+    
 
         public override string GetInfo()
 
@@ -441,15 +380,11 @@ namespace baitap02_10
 
         {
 
-            // Private Field
+          
 
             private int _dungTichXylanh;
 
-            // -----------------------------------------------------
-
-            // Property DungTichXylanh
-
-            // -----------------------------------------------------
+       
 
             public int DungTichXylanh
 
@@ -483,12 +418,7 @@ namespace baitap02_10
 
             }
 
-            // -----------------------------------------------------
-
-            // Constructor
-
-            // -----------------------------------------------------
-
+  
             public XeMay(
 
                 string maPT,
@@ -517,11 +447,7 @@ namespace baitap02_10
 
             }
 
-            // -----------------------------------------------------
-
-            // Override TinhGiaLanBanh
-
-            // -----------------------------------------------------
+      
 
             public override decimal TinhGiaLanBanh()
 
@@ -531,7 +457,7 @@ namespace baitap02_10
 
                 {
 
-                    // Giá gốc + 2% trước bạ
+                  
 
                     return GiaGoc
 
@@ -543,7 +469,7 @@ namespace baitap02_10
 
                 {
 
-                    // Giá gốc + 5% trước bạ
+                
 
                     return GiaGoc
 
@@ -553,12 +479,7 @@ namespace baitap02_10
 
             }
 
-            // -----------------------------------------------------
-
-            // Override GetInfo
-
-            // -----------------------------------------------------
-
+      
             public override string GetInfo()
 
             {
@@ -575,26 +496,16 @@ namespace baitap02_10
 
         }
 
-        // =========================================================
-
-        // D. CLASS QUAN LY PHUONG TIEN
-
-        // =========================================================
-
+    
         public class QuanLyPhuongTien
 
         {
 
-            // Danh sách phương tiện
+       
 
             private List<PhuongTien> danhSach;
 
-            // -----------------------------------------------------
-
-            // Constructor
-
-            // -----------------------------------------------------
-
+            
             public QuanLyPhuongTien()
 
             {
@@ -605,12 +516,7 @@ namespace baitap02_10
 
             }
 
-            // -----------------------------------------------------
-
-            // 1. AddPhuongTien
-
-            // -----------------------------------------------------
-
+     
             public void AddPhuongTien(
 
                 PhuongTien pt)
@@ -633,12 +539,7 @@ namespace baitap02_10
 
             }
 
-            // -----------------------------------------------------
-
-            // 2. DisplayAll
-
-            // -----------------------------------------------------
-
+       
             public void DisplayAll()
 
             {
@@ -687,11 +588,7 @@ namespace baitap02_10
 
             }
 
-            // -----------------------------------------------------
-
-            // 3. FindMaxGiaLanBanh
-
-            // -----------------------------------------------------
+    
 
             public PhuongTien FindMaxGiaLanBanh()
 
@@ -715,11 +612,7 @@ namespace baitap02_10
 
             }
 
-            // -----------------------------------------------------
-
-            // 4. SearchByName
-
-            // -----------------------------------------------------
+       
 
             public List<PhuongTien> SearchByName(
 
@@ -755,7 +648,7 @@ namespace baitap02_10
 
         }
 
-        // ==========
+      
         class Program
 
         {
@@ -770,21 +663,13 @@ namespace baitap02_10
 
                 {
 
-                    // =================================================
-
-                    // TẠO ĐỐI TƯỢNG QUẢN LÝ
-
-                    // =================================================
+                  
 
                     QuanLyPhuongTien ql =
 
                         new QuanLyPhuongTien();
 
-                    // =================================================
-
-                    // TẠO Ô TÔ
-
-                    // =================================================
+                 
 
                     OTo oto1 =
 
@@ -818,11 +703,7 @@ namespace baitap02_10
 
                             2.5);
 
-                    // =================================================
-
-                    // TẠO XE MÁY
-
-                    // =================================================
+           
 
                     XeMay xeMay1 =
 
@@ -852,11 +733,7 @@ namespace baitap02_10
 
                             200);
 
-                    // =================================================
-
-                    // THÊM VÀO DANH SÁCH
-
-                    // =================================================
+             
 
                     ql.AddPhuongTien(oto1);
 
@@ -866,19 +743,9 @@ namespace baitap02_10
 
                     ql.AddPhuongTien(xeMay2);
 
-                    // =================================================
-
-                    // HIỂN THỊ TOÀN BỘ
-
-                    // =================================================
-
+                 
                     ql.DisplayAll();
 
-                    // =================================================
-
-                    // TÌM GIÁ LĂN BÁNH CAO NHẤT
-
-                    // =================================================
 
                     PhuongTien max =
 
@@ -909,11 +776,7 @@ namespace baitap02_10
 
                     }
 
-                    // =================================================
-
-                    // TÌM KIẾM THEO TÊN HÃNG
-
-                    // =================================================
+              
 
                     Console.WriteLine();
 
