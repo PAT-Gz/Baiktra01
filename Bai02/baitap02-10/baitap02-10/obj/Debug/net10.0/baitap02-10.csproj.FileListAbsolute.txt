@@ -1,0 +1,14 @@
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\obj\Debug\net10.0\baitap02-10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\obj\Debug\net10.0\baitap02-10.AssemblyInfoInputs.cache
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\obj\Debug\net10.0\baitap02-10.AssemblyInfo.cs
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\obj\Debug\net10.0\baitap02-10.csproj.CoreCompileInputs.cache
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\bin\Debug\net10.0\baitap02-10.exe
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\bin\Debug\net10.0\baitap02-10.deps.json
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\bin\Debug\net10.0\baitap02-10.runtimeconfig.json
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\bin\Debug\net10.0\baitap02-10.dll
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\bin\Debug\net10.0\baitap02-10.pdb
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\obj\Debug\net10.0\baitap02-10.dll
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\obj\Debug\net10.0\refint\baitap02-10.dll
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\obj\Debug\net10.0\baitap02-10.pdb
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\obj\Debug\net10.0\baitap02-10.genruntimeconfig.cache
+C:\Users\LaptopAM.com\source\repos\baitap02-10\baitap02-10\obj\Debug\net10.0\ref\baitap02-10.dll
